@@ -1,0 +1,67 @@
+/* Header.css */
+
+/* Navbar styles */
+.navbar {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #22c713;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  color: #060505;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f39c12;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  background-color: #27ae60;
+  border: none;
+}
+
+.dropdown-item {
+  color: #fff;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+/* Badge styles */
+.ant-badge-count {
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0 8px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+}

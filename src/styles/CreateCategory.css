@@ -1,0 +1,40 @@
+/* CreateCategory.css */
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.category-form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.category-list-container {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.btn-primary,
+.btn-danger {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.category-modal {
+  .ant-modal-content {
+    border-radius: 10px;
+  }
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}

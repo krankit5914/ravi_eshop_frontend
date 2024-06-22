@@ -1,0 +1,29 @@
+/* SearchInput.css */
+
+.search-input-container {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.focused {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-input {
+  flex: 1;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  border-radius: 0 5px 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
